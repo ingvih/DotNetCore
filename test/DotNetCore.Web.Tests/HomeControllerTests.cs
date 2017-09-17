@@ -1,3 +1,4 @@
+using DotNetCore.Web.Core.Business;
 using DotNetCore.Web.Features.Home;
 using Microsoft.AspNetCore.Mvc;
 using Xunit;
@@ -10,7 +11,7 @@ namespace DotNetCore.Web.Tests
 
         public HomeControllerTests()
         {
-            _homeController = new HomeController();
+            _homeController = new HomeController(new ContentBusiness());
         }
 
         [Fact]

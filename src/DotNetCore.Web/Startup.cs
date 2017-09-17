@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DotNetCore.Web.Core.Business;
 using DotNetCore.Web.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +30,8 @@ namespace DotNetCore
             {
                 options.ViewLocationExpanders.Add(new FeatureLocationExpander());
             });
+
+            services.AddSingleton<IContentBusiness, ContentBusiness>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
