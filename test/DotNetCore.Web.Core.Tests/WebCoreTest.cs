@@ -1,14 +1,14 @@
+using DotNetCore.Web.Core.Business;
 using Xunit;
 
 namespace DotNetCore.Web.Core.Tests
 {
     public class WebCoreTest
     {
-        private readonly HelperClass _helperClass;
-
+        private IContentBusiness _contentBusiness;
         public WebCoreTest()
         {
-            _helperClass = new HelperClass();
+            _contentBusiness = new ContentBusiness();
         }
 
         [Fact]
@@ -16,10 +16,10 @@ namespace DotNetCore.Web.Core.Tests
         {
             // Arrange
             const string input = "Test Value";
-            string expectedOutput = $"Test from Web.Core: {input}";
+            string expectedOutput = $"Test from ContentBusiness: {input}";
 
             // Act
-            string actualOutput = _helperClass.GetTestValue(input);
+            string actualOutput = _contentBusiness.GetTestContent(input);
             
             // Assert
             Assert.Equal(expectedOutput, actualOutput);

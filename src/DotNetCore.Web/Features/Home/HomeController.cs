@@ -15,10 +15,9 @@ namespace DotNetCore.Web.Features.Home
 
         public IActionResult Index()
         {
-            var helperClass = new HelperClass();
             var model = new HomeViewModel
             {
-                Property = _contentBusiness.GetTestContent("Value from Web.")
+                Property = _contentBusiness.GetTestContent("Input")
             };
             return View(model);
         }
