@@ -1,11 +1,10 @@
-using System;
 using Xunit;
 
-namespace DotNetCore.Web.Core.UnitTests
+namespace DotNetCore.Web.Core.Tests
 {
     public class WebCoreTest
     {
-        private HelperClass _helperClass;
+        private readonly HelperClass _helperClass;
 
         public WebCoreTest()
         {

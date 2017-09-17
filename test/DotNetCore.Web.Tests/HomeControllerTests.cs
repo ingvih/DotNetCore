@@ -1,9 +1,8 @@
-using System;
 using DotNetCore.Web.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Xunit;
 
-namespace DotNetCore.Web.UnitTests
+namespace DotNetCore.Web.Tests
 {
     public class HomeControllerTests
     {
