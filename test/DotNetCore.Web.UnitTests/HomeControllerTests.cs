@@ -7,7 +7,7 @@ namespace DotNetCore.Web.UnitTests
 {
     public class HomeControllerTests
     {
-        private HomeController _homeController;
+        private readonly HomeController _homeController;
 
         public HomeControllerTests()
         {
