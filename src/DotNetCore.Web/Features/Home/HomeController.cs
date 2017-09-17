@@ -9,8 +9,11 @@ namespace DotNetCore.Web.Features.Home
         public IActionResult Index()
         {
             var helperClass = new HelperClass();
-            string value = helperClass.GetTestValue("Value from Web.");
-            return View();
+            var model = new HomeViewModel
+            {
+                Property = helperClass.GetTestValue("Value from Web.")
+            };
+            return View(model);
         }
     }
 }
