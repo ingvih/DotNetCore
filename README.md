@@ -8,7 +8,10 @@
 
 ## Coming Soon
 - Use feature folders instead of standard Views/Controllers/Models folders.
-- Content Management.
-- Logging.
-- Caching.
+- Dependency Injection for Controller and Testings.
+- Test projects use Moq for Mocking data.
+- Content Management. (Contentful)
+- Logging. (Serilog or NLog).
+- Output cache for non-dynamic content for less load on backend services.
+- Caching. (Redis in a Docker container).
 - More...
