@@ -1,4 +1,4 @@
-namespace DotNetCore.Web.Models
+namespace DotNetCore.Web.Features.Home
 {
     public class ErrorViewModel
     {

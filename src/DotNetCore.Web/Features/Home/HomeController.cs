@@ -1,9 +1,8 @@
 ﻿using System.Diagnostics;
 using DotNetCore.Web.Core;
-using DotNetCore.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNetCore.Web.Controllers
+namespace DotNetCore.Web.Features.Home
 {
     public class HomeController : Controller
     {

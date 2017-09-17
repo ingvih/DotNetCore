@@ -1,4 +1,4 @@
-using DotNetCore.Web.Controllers;
+using DotNetCore.Web.Features.Home;
 using Microsoft.AspNetCore.Mvc;
 using Xunit;
 
