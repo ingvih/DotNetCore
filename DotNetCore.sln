@@ -7,7 +7,7 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DC6F061-1C43-4DAC-B367-A6779588F39C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore", "src\DotNetCore\DotNetCore.csproj", "{3FFAC211-8F0B-434D-A796-618006ADA46D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.Web", "src\DotNetCore\DotNetCore.Web.csproj", "{3FFAC211-8F0B-434D-A796-618006ADA46D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{530D67C8-7128-46D1-9C02-89E03EB27916}"
 EndProject

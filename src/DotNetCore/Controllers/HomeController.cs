@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
+using DotNetCore.Web.Models;
 using Microsoft.AspNetCore.Mvc;
-using DotNetCore.Models;
 
-namespace DotNetCore.Controllers
+namespace DotNetCore.Web.Controllers
 {
     public class HomeController : Controller
     {

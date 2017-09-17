@@ -1,6 +1,4 @@
-using System;
-
-namespace DotNetCore.Models
+namespace DotNetCore.Web.Models
 {
     public class ErrorViewModel
     {
