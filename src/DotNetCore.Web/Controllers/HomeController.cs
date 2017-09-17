@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using DotNetCore.Web.Core;
 using DotNetCore.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,8 @@ namespace DotNetCore.Web.Controllers
     {
         public IActionResult Index()
         {
+            var helperClass = new HelperClass();
+            string value = helperClass.GetTestValue("Value from Web.");
             return View();
         }
 
