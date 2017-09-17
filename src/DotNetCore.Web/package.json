@@ -1,0 +1,17 @@
+{
+  "name": "dotnetcoreweb",
+  "version": "1.0.0",
+  "description": "Boilerplate .Net Core 2.0 Web Application",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "dotnet-core"
+  ],
+  "author": "Ingvi Rafn Hafþórsson",
+  "license": "MIT"
+}
