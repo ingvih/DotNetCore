@@ -3,4 +3,4 @@ ARG source
 WORKDIR /app
 EXPOSE 80
 COPY ${source:-obj/Docker/publish} .
-ENTRYPOINT ["dotnet", "DotNetCore.dll"]
+ENTRYPOINT ["dotnet", "DotNetCore.Web.dll"]

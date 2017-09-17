@@ -4,5 +4,5 @@ services:
   dotnetcore:
     image: dotnetcore
     build:
-      context: ./DotNetCore
+      context: ./src/DotNetCore.Web
       dockerfile: Dockerfile
