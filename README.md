@@ -11,6 +11,7 @@
 - Dependency Injection for Controller and Testing.
 - Gulp for building css and js.
 - Test projects use Moq for Mocking data.
+- Status Code Pages.
 - Content Management. (Contentful)
 - Logging. (Serilog or NLog).
 - Output cache for non-dynamic content for less load on backend services.
